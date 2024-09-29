@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+.title {
+  margin: 115px 0 0 52px;
+  font-size: 40px;
+}
+
+.green-color {
+  color: #4adf86;
+}
