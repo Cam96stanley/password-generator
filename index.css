@@ -34,3 +34,23 @@ body {
   border: none;
   border-radius: 6px;
 }
+
+#password-container {
+  display: flex;
+  margin-top: 35px;
+}
+
+#first-password {
+  width: 210px;
+  height: 40px;
+  background-color: #273549;
+  margin: 0 24px 0 52px;
+  border-radius: 6px;
+}
+
+#second-password {
+  width: 210px;
+  height: 40px;
+  background-color: #273549;
+  border-radius: 6px;
+}
