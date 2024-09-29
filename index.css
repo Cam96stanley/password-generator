@@ -5,6 +5,11 @@ body {
   color: #ffffff;
 }
 
+.hero-container {
+  margin: 0 52px 35px 52px;
+  border-bottom: 1px solid #2f3e53;
+}
+
 .title {
   margin: 115px 0 0 52px;
   font-size: 40px;
@@ -12,4 +17,20 @@ body {
 
 .green-color {
   color: #4adf86;
+}
+
+.para {
+  color: #d5d4d8;
+  font-size: 20px;
+  margin: 10px 0 51px 52px;
+}
+
+#generate-password-btn {
+  margin: 0 0 35px 52px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #10b981;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
 }
