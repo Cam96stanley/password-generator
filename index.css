@@ -43,6 +43,10 @@ body {
 #first-password {
   width: 210px;
   height: 40px;
+  color: #55f991;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #273549;
   margin: 0 24px 0 52px;
   border-radius: 6px;
@@ -51,6 +55,10 @@ body {
 #second-password {
   width: 210px;
   height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #273549;
+  color: #55f991;
   border-radius: 6px;
 }

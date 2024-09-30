@@ -91,3 +91,18 @@ const characters = [
   "?",
   "/",
 ];
+
+let firstPasswordEl = document.getElementById("first-password");
+let secondPasswordEl = document.getElementById("second-password");
+let passwordBtn = document.getElementById("generate-password-btn");
+
+passwordBtn.addEventListener("click", function () {
+  for (let i = 0; i < 15; i++) {
+    let randomChar = Math.floor(Math.random() * characters.length);
+    firstPasswordEl.textContent += characters[randomChar];
+  }
+  for (let i = 0; i < 15; i++) {
+    let randomChar = Math.floor(Math.random() * characters.length);
+    secondPasswordEl.textContent += characters[randomChar];
+  }
+});
