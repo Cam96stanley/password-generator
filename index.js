@@ -97,6 +97,9 @@ let secondPasswordEl = document.getElementById("second-password");
 let passwordBtn = document.getElementById("generate-password-btn");
 
 passwordBtn.addEventListener("click", function () {
+  firstPasswordEl.textContent = "";
+  secondPasswordEl.textContent = "";
+
   for (let i = 0; i < 15; i++) {
     let randomChar = Math.floor(Math.random() * characters.length);
     firstPasswordEl.textContent += characters[randomChar];
